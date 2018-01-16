@@ -5,3 +5,5 @@
  * Date: 1/16/18
  * Time: 10:23 AM
  */
+
+$animals = array("panada", "alpaca", "boa");
