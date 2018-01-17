@@ -6,6 +6,8 @@
  * Time: 10:23 AM
  */
 
+echo "<h2>Part 1</h2>";
+
 $animals = array("panda", "alpaca", "boa");
 
 function sortFunction($array) {
@@ -27,3 +29,4 @@ sortFunction($animals);
 
 addFunction("goat", $animals);
 
+echo "<h2>Part 2</h2>";
