@@ -41,10 +41,6 @@ $flavors = array("grasshopper"=>"The Grasshopper",
     );
 
 
-?>
-
-<?php
     foreach ($flavors as $flavor => $name) {
         echo "<input type=\"checkbox\" name=\"flavors[]\" value=\"$flavor\"> $name<br>";
     }
-?>
