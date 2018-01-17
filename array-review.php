@@ -30,3 +30,21 @@ sortFunction($animals);
 addFunction("goat", $animals);
 
 echo "<h2>Part 2</h2>";
+
+$flavors = array("grasshopper"=>"The Grasshopper",
+                    "maple"=>"Whiskey Maple Bacon",
+                    "carrot"=>"Carrot Walnut",
+                    "caramel"=>"Salted Caramel Cupcake",
+                    "velvet"=>"Red Velvet",
+                    "lemon"=>"Lemon Drop",
+                    "tiramisu"=>"Tiramisu",
+    );
+
+
+?>
+
+<?php
+    foreach ($flavors as $flavor => $name) {
+        echo "<input type=\"checkbox\" name=\"flavors[]\" value=\"$flavor\"> $name<br>";
+    }
+?>
